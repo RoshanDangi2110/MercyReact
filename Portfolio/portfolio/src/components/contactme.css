@@ -1,0 +1,88 @@
+#clients {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientsTitle {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.clientDesc {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.clientImgs {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cIMG {
+  object-fit: cover;
+  width: 23%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 4px;
+  height: 9rem;
+  cursor: pointer;
+}
+.client {
+  padding: 2rem;
+}
+
+.cDESC {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactFrm {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,
+.email,
+.message {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 8px;
+  padding: 8px 1rem;
+  color: white;
+  background-color: RGB(50, 50, 50);
+  border: 0;
+  border-radius: 8px;
+}
+.submitBtn {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 2rem;
+}
+.link {
+  object-fit: cover;
+  border-radius: 50px;
+  height: 4rem;
+  width: 4rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}

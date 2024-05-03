@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import bg from "../assets/bg.jpg";
+import bg from "../assets/newbg.png";
 import hire from "../assets/hire.jpg";
 import { Link } from "react-scroll";
 
@@ -11,7 +11,7 @@ const Intro = () => {
         <spam className="hello">Hello,</spam>
         <br />
         <spam classname="intro">
-          I'm <spam classname="name">Roshan</spam>
+          I'm Roshan
           <br />
           Web Developer
           <p className="introP">
@@ -27,7 +27,7 @@ const Intro = () => {
           </Link>
         </spam>
       </div>
-      <img src={bg} alt="Background Image" className="bg" />
+      <img src={bg} alt="Background Img" className="bg" />
     </section>
   );
 };

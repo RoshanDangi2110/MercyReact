@@ -7,8 +7,14 @@
   font-family: "Roboto", Times, serif;
 }
 
-body {
+/*body {
   background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}*/
+body {
+  background: rgb(58, 175, 169);
   color: white;
   overflow: hidden;
   overflow-y: scroll;

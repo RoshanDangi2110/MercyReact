@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(220, 180, 105);
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+.logoimg {
+  padding-left: 10px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+.List {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.Btn {
+  padding: 10px 16px;
+  height: 32px;
+  color: white;
+  background: rgb(217, 147, 16);
+  font-weight: 300;
+  cursor: pointer;
+  margin-right: 10px;
+}

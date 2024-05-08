@@ -1,0 +1,32 @@
+.btn {
+  padding: 10px 16px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  background: rgb(217, 147, 16);
+  font-weight: 300;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.page {
+  display: flex;
+  max-width: 1280px;
+  height: calc(100vh - 72px);
+  margin: 0 auto;
+  background-color: rgb(217, 189, 138);
+}
+.image {
+  height: calc(100vh - 72px);
+  object-fit: cover;
+  align-items: right;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 50px;
+  margin-left: 10px;
+}
+p {
+  font-size: 40px;
+  margin-left: 10px;
+}

@@ -57,4 +57,51 @@
   .Overall {
     width: 100%;
   }
+  .info {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .img {
+    margin: 0;
+  }
+  .img1 {
+    object-fit: cover;
+    height: 180px;
+    width: 110px;
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0px;
+  }
+  .DOB {
+    font-size: 11px;
+    font-weight: 16.5px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    line-height: 12px;
+  }
+  .oct {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .BP {
+    font-size: 11px;
+    font-weight: 16.5px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    line-height: 12px;
+  }
+  .pok {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .fb {
+    height: 14px;
+    width: 14px;
+  }
+  .con {
+    margin-left: 20px;
+  }
 }

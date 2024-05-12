@@ -1,0 +1,41 @@
+.info {
+  background-color: rgba(217, 217, 217, 275);
+  height: 519px;
+  font-weight: 400;
+  border-radius: 5px 0px 0px 5px;
+}
+.infocon {
+  padding-top: 31px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.b {
+  font-size: 16px;
+}
+
+.c {
+  margin-top: 0px;
+  font-size: 16px;
+  text-decoration: underline;
+}
+a {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    width: 100%;
+    margin: 0px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .infocon {
+    font-size: 15px;
+  }
+  .b,
+  .c {
+    font-size: 12px;
+  }
+}

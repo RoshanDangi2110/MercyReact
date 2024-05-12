@@ -1,0 +1,50 @@
+.overall {
+  display: flex;
+}
+.topdiv {
+  margin: 0;
+}
+.Logo1 {
+  margin-left: 89px;
+}
+
+.Top-right {
+  margin-top: 20px;
+  margin-left: 6px;
+  display: flex;
+}
+.right {
+  margin-right: 100px;
+  color: rgba(0, 84, 41, 1);
+}
+.left {
+  margin-right: 757px;
+  color: rgba(0, 84, 41, 1);
+}
+
+.navlist {
+  list-style: none;
+  padding: 5px;
+  width: 119px;
+}
+.listitem {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.navbar {
+  margin-left: 99px;
+  margin-top: 23px;
+}
+.info {
+  background-color: rgba(217, 217, 217, 275);
+  margin-top: 30px;
+  margin-right: 1px;
+  margin-left: 53px;
+  width: 1179px;
+  height: 519px;
+}
+.infocon {
+  padding-top: 31px;
+  margin-left: 35px;
+  font-size: 24px;
+}

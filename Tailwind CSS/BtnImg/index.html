@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      .image-container {
+        margin-top: 10px;
+      }
+      .image-container img {
+        display: block;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex w-full h-[100vh]">
+      <div id="firstDiv" class="bg-fuchsia-400 w-[50%]">
+        <p>This is 1st div</p>
+        <img
+          id="myImage"
+          src="./isagi.webp"
+          placeholder="Isagi ho vai"
+          class="h-2/3"
+        />
+      </div>
+      <div id="secondDiv" class="bg-orange-300 w-[50%]">
+        <p>This is 2nd div</p>
+        <button
+          id="showButton"
+          onClick="addImage()"
+          class="border border-black bg-orange-200 focus:bg-slate-200 hover:bg-orange-400"
+        >
+          Add Pic!
+        </button>
+        <button
+          class="border border-black text-green-900 bg-fuchsia"
+          onClick="removeImage()"
+        >
+          Remove Image
+        </button>
+        <!-- Added an image container inside the second div -->
+        <div class="image-container"></div>
+      </div>
+    </div>
+    <script>
+      function addImage() {
+        const img = document.createElement("img");
+        img.src = "./isagi.webp";
+        img.alt = "placeholder";
+        document.querySelector("#secondDiv .image-container").appendChild(img);
+      }
+      function removeImage() {
+        const container = document.querySelector("#secondDiv .image-container");
+        if (container.lastChild) {
+          container.removeChild(container.lastChild);
+        }
+      }
+    </script>
+  </body>
+</html>

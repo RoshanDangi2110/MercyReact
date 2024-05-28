@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+.btn {
+  @apply text-white bg-yellow-400 hover:bg-yellow-700 focus:ring-4 focus:ring-yellow-400;
+}
+
+@tailwind utilities;

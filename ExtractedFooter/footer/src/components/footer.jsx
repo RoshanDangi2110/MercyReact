@@ -22,6 +22,7 @@ const Footer = () => {
         >
           <div className="container">
             <img src={logo} alt="Mahan Nepal Logo" className="mb-4" />
+
             <div className="row">
               <div className="col-lg-4">
                 <div className="footer-widgets_area address-widgets_area">

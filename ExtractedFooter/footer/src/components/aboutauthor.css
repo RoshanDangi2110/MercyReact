@@ -1,0 +1,107 @@
+.Overall {
+  display: flex;
+  background-color: rgba(217, 217, 217, 275);
+}
+.info {
+  margin-top: 25px;
+  margin-left: 48px;
+}
+.name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.kun {
+  color: rgb(0, 84, 41);
+}
+.img {
+  margin: 0px;
+}
+.img1 {
+  margin: 0px;
+}
+.con {
+  display: flex;
+  margin-top: 36px;
+  margin-left: 39px;
+}
+.DOB {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  margin-bottom: 15px;
+}
+.oct {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.BP {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  margin-bottom: 15px;
+}
+.pok {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.fb {
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .Overall {
+    width: 100%;
+  }
+  .info {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .img {
+    margin: 0;
+  }
+  .img1 {
+    object-fit: cover;
+    height: 180px;
+    width: 110px;
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0px;
+  }
+  .DOB {
+    font-size: 11px;
+    font-weight: 16.5px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    line-height: 12px;
+  }
+  .oct {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .BP {
+    font-size: 11px;
+    font-weight: 16.5px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    line-height: 12px;
+  }
+  .pok {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .fb {
+    height: 14px;
+    width: 14px;
+  }
+  .con {
+    margin-left: 20px;
+  }
+}

@@ -17,6 +17,7 @@ nav {
   display: flex;
   list-style: none;
   gap: 30px;
+  cursor: pointer;
 }
 .Btn {
   padding: 10px 16px;
